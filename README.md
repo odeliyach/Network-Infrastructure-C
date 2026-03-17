@@ -50,12 +50,15 @@ sequenceDiagram
 - GitHub Actions workflow `ci.yml` performs `make all` and `make test` on every push and pull request to enforce compilation hygiene and protocol smoke coverage.
 
 ## 🧭 Repository Layout
-- `src/` — C sources (`pcc_server.c`, `pcc_client.c`).
-- `docs/` — assignment and protocol instructions (`instructions_network.txt`).
-- `bin/` — build outputs (generated).
+- `src/` - C sources (`pcc_server.c`, `pcc_client.c`).
+- `docs/` - assignment and protocol instructions (`instructions_network.txt`).
+- `bin/` - build outputs (generated).
 
-## 🧠 Interview Prep
-- Study the mentor-style guide in [`docs/INTERVIEW_PREP.md`](docs/INTERVIEW_PREP.md).
+## Academic Integrity Notice
 
-## Academic Policy
-Educational Use Only. The logic here is unique and easily detectable by automated plagiarism tools. Use of this code in academic assignments is strictly prohibited.
+**This repository is for portfolio and educational purposes only.** If you are a student currently taking an Operating Systems course, copying this code violates academic integrity policies. I do not take responsibility for disciplinary actions against individuals who misuse this code.
+
+##📄 License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+
