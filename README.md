@@ -14,11 +14,14 @@
 
 ### 🧠 Protocol Diagram
 ```mermaid
-flowchart LR
-    A[Client sends N (uint32, network byte order)] --> B[Server confirms receipt]
-    B --> C[Client streams N bytes]
-    C --> D[Server counts printable bytes]
-    D --> E[Server returns C (uint32, network byte order)]
+sequenceDiagram
+    participant Client
+    participant Server
+    Client->>Server: N (uint32, network byte order)
+    Server-->>Client: Length accepted
+    Client->>Server: N bytes payload
+    Server->>Server: Count printable bytes
+    Server-->>Client: C (uint32, network byte order)
 ```
 
 ## 🧠 Core Networking Concepts
