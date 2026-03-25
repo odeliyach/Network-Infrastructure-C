@@ -61,7 +61,8 @@ sequenceDiagram
 
 **This repository is for portfolio and educational purposes only.** If you are a student currently taking an Operating Systems course, copying this code violates academic integrity policies. I do not take responsibility for disciplinary actions against individuals who misuse this code.
 
-##📄 License
+
+## 📄 License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
