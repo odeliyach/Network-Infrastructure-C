@@ -1,7 +1,10 @@
+<div align="center">
+
 # Printable Characters Counter (PCC)
 
 <a href="https://github.com/odeliyach/Network-Infrastructure-C/actions"><img src="https://github.com/odeliyach/Network-Infrastructure-C/actions/workflows/ci.yml/badge.svg"></a>
 <a href="https://github.com/odeliyach/Network-Infrastructure-C/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
+</div>
 
 ## 🚀 Read This First
 - The authoritative project compass is [`docs/instructions_network.txt`](docs/instructions_network.txt). All development choices, error semantics, and protocol details align with that document.
@@ -61,4 +64,13 @@ sequenceDiagram
 ##📄 License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+
+---
+<div align="center">
+
+Built by **Odeliya Charitonova** · [GitHub](https://github.com/odeliyach) · [LinkedIn](https://linkedin.com/in/odeliya-charitonova)
+
+*Computer Science student @ Tel Aviv University, School of CS & AI*
+
+</div>
 
